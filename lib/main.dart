@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:row/inkwellwidget.dart';
 import 'package:row/row_34.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lightBlue,
       ),
-      home: const Row34(),
+      home: const InkwellWidget(),
     );
   }
 }
