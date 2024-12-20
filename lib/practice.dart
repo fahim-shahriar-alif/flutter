@@ -33,8 +33,13 @@ class Practice extends StatelessWidget {
                         width: 350,
                         decoration:
                           BoxDecoration(
-                          color: Colors.deepPurple,shape:BoxShape.circle )
-                      ),
+                          color: Colors.deepPurple,shape:BoxShape.circle ),child: ClipOval(
+                            child: Image.asset(
+                              'assets/images/Alif.jpg',
+                               fit: BoxFit.cover, // Ensures the image fills the container while maintaining aspect ratio
+                            ),)
+
+                        ),
                       Container(
                         margin: EdgeInsets.only(right: 11),
                         height: 200,
@@ -72,7 +77,19 @@ class Practice extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.black12,shape: BoxShape.circle),child: ClipOval(
                         child: Image.asset(
-                          'assets/images/Alif1.jpg',
+                          'assets/images/Jakir.jpg',
+                          fit: BoxFit.cover, // Ensures the image fills the container while maintaining aspect ratio
+                        ),
+                      ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(right: 11),
+                        height: 200,
+                        width: 200,
+                        decoration: BoxDecoration(
+                            color: Colors.black12,shape: BoxShape.circle),child: ClipOval(
+                        child: Image.asset(
+                          'assets/images/Sherin.jpg',
                           fit: BoxFit.cover, // Ensures the image fills the container while maintaining aspect ratio
                         ),
                       ),
@@ -85,7 +102,7 @@ class Practice extends StatelessWidget {
                         decoration: BoxDecoration(
                             color: Colors.black12,shape: BoxShape.circle),child: ClipOval(
                         child: Image.asset(
-                          'assets/images/Men2.jpg',
+                          'assets/images/Alvee.jpg',
                           fit: BoxFit.cover, // Ensures the image fills the container while maintaining aspect ratio
                         ),
                       ),
@@ -97,7 +114,7 @@ class Practice extends StatelessWidget {
                         decoration: BoxDecoration(
                             color: Colors.black12,shape: BoxShape.circle),child: ClipOval(
                         child: Image.asset(
-                          'assets/images/Men4.jpg',
+                          'assets/images/Afifa.jpg',
                           fit: BoxFit.cover, // Ensures the image fills the container while maintaining aspect ratio
                         ),
                       ),
@@ -109,7 +126,7 @@ class Practice extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: Colors.black12,shape: BoxShape.circle),child: ClipOval(
                   child: Image.asset(
-                    'assets/images/Men3.jpg',
+                    'assets/images/Samonti.HEIC',
                     fit: BoxFit.cover, // Ensures the image fills the container while maintaining aspect ratio
                   ),
                 ),

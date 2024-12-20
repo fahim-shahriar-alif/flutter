@@ -58,8 +58,12 @@ flutter:
     - assets/images/Men1.jpg
     - assets/images/Men2.jpg
     - assets/images/Men3.jpg
-    - assets/images/Men4.jpg
+    - assets/images/Samonti.HEIC
     - assets/images/Family.jpeg
+    - assets/images/Afifa.jpg
+    - assets/images/Alvee.jpg
+    - assets/images/Jakir.jpg
+    - assets/images/Sherin.jpg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
