@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:row/decoration.dart';
+import 'package:row/decrationwithbutton.dart';
 import 'package:row/inkwellwidget.dart';
 import 'package:row/list.dart';
 import 'package:row/practice.dart';
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lightBlue,
       ),
-      home: const list1(),
+      home: const DecorationWithButton(),
     );
   }
 }

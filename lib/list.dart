@@ -53,7 +53,7 @@ class list1 extends StatelessWidget {
 
         scrollDirection: Axis.vertical,
         separatorBuilder: (context,index){
-          return Divider(height: 600,thickness: 10,);
+          return Divider(height: 100,thickness: 2,);
         }
       ),
       );
