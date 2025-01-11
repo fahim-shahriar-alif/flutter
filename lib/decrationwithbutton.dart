@@ -15,8 +15,8 @@ class DecorationWithButton extends StatelessWidget {
         color: Colors.blue.shade50,
         child: Center(
           child: Container(
-            width: 150,
-            height: 150,
+            width: 100,
+            height: 100,
             decoration: BoxDecoration(
               color: Colors.blueGrey.shade100,
               borderRadius: const BorderRadius.only(
@@ -29,9 +29,9 @@ class DecorationWithButton extends StatelessWidget {
               ),
               boxShadow: [
                 BoxShadow(
-                  blurRadius: 52,
+                  blurRadius: 40,
                   color: Colors.redAccent.shade400,
-                  spreadRadius: 7,
+                  spreadRadius: 5,
                 )
               ],
             ),
@@ -40,7 +40,7 @@ class DecorationWithButton extends StatelessWidget {
               children: [
                 const Text(
                   "Add Card",
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 10),
                 ElevatedButton(
@@ -49,7 +49,7 @@ class DecorationWithButton extends StatelessWidget {
                   },
                   style: ElevatedButton.styleFrom(
                     shape: const CircleBorder(), // Makes the button circular
-                    padding: const EdgeInsets.all(20), // Adjusts button size
+                    padding: const EdgeInsets.all(10), // Adjusts button size
                     backgroundColor: Colors.blue, // Button background color
                     foregroundColor: Colors.white, // Button text color
                   ),
