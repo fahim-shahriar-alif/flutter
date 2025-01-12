@@ -5,6 +5,7 @@ import 'package:row/expentionwid.dart';
 import 'package:row/inkwellwidget.dart';
 import 'package:row/list.dart';
 import 'package:row/listpractice.dart';
+import 'package:row/paddandmargin.dart';
 import 'package:row/practice.dart';
 import 'package:row/row_34.dart';
 import 'package:row/scroll.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lightBlue,
       ),
-      home: const expentionwid(),
+      home: const paddandmargin(),
     );
   }
 }
