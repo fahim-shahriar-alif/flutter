@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class list1 extends StatelessWidget {
-  const list1({super.key});
+class list1practice extends StatelessWidget {
+  const list1practice({super.key});
 
   @override
   Widget build(BuildContext context) {
